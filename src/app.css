@@ -7,3 +7,12 @@
 		Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
 		sans-serif;
 }
+
+/* headings */
+h1 {
+	@apply text-accent-400 text-3xl font-semibold;
+}
+
+h2 {
+	@apply text-accent-400/50 text-xl;
+}

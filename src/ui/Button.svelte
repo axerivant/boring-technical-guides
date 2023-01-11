@@ -2,4 +2,4 @@
 	export let label: string
 </script>
 
-<button>{label}</button>
+<button class="bg-accent-400 p-3 py-1 rounded-full font-medium">{label}</button>
