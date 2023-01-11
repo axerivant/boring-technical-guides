@@ -1,13 +1,12 @@
 <script lang="ts">
-	import { Button } from '@/ui'
+	import Header from './Header.svelte'
+	import Search from './Search.svelte'
 </script>
 
-<header class="flex justify-between items-start">
-	<div class="flex flex-col gap-3">
-		<h1>no-nonsense technical guides.</h1>
-		<h2 class="w-8/12">
-			concise, specific and practical knowledge for software engineers.
-		</h2>
+<main class="flex flex-col gap-12">
+	<Header />
+
+	<div>
+		<Search />
 	</div>
-	<Button label="create a guide" />
-</header>
+</main>
