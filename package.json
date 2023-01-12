@@ -30,6 +30,7 @@
 	"dependencies": {
 		"@types/marked": "^4.0.8",
 		"estree-walker": "^3.0.2",
+		"firebase": "^9.15.0",
 		"marked": "^4.2.5",
 		"prismjs": "^1.29.0",
 		"rainbow-code": "^2.1.7"

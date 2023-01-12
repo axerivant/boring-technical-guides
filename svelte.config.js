@@ -11,7 +11,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			'@': path.resolve('./src')
+			'@': path.resolve('./src'),
+			'@S': path.resolve('./src/server')
 		}
 	}
 }
