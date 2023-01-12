@@ -17,3 +17,7 @@ h1 {
 h2 {
 	@apply text-accent-400/50 text-xl;
 }
+
+p {
+	@apply text-accent-400/70;
+}
