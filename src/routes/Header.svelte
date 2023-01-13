@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { Button } from '@/ui'
+	import user from '@/store/user'
+	import { LinkButton } from '@/ui'
 </script>
 
 <header class="flex justify-between items-start">
@@ -9,5 +10,9 @@
 			concise, specific and practical knowledge for software engineers.
 		</h2>
 	</div>
-	<Button label="create a guide" />
+	{#if $user}
+		<div class="text-accent-400">{$user.email}</div>
+	{:else}
+		<LinkButton href="/auth/signup" label="create a guide" />
+	{/if}
 </header>

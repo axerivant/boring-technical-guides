@@ -12,7 +12,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			'@': path.resolve('./src'),
-			'@S': path.resolve('./src/server')
+			'@B': path.resolve('./src/backend')
 		}
 	}
 }

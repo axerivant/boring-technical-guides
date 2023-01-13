@@ -7,3 +7,8 @@ interface SearchResult {
 	brief: string
 	author: string
 }
+
+interface User {
+	email: string
+	uid: string
+}
